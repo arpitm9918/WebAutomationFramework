@@ -1,0 +1,40 @@
+Ques.What is AutimationFrmaework and it's Advantage?
+Ans. Test automation frameworks are a set of rules and corresponding tools that are used for
+building test cases.
+It is designed to help engineering functions work more efficiently.
+Advantages of Teat Automation Framework
+1.Increased Efficiency
+2. Consistency and Reliability
+3. Code Reusability
+4. Scalability
+5. Early Defect Detection
+6. Regression Testing
+7. Improved Test Coverage
+8. Efficient Use of Resources
+9. Reduced Costs
+10. Continuous Testing Support
+For Detail Click on this link :- https://www.browserstack.com/guide/best-test-automation-frameworks
+
+Ques. What Is Page Object Model and what are its advantage?
+Ans. Page Object Model, also known as POM, is a design pattern in Selenium that creates an object
+repository for storing all web elements.
+It helps reduce code duplication and improves test case maintenance.
+In Page Object Model, consider each web page of an application as a class file(It means divide your pages).
+Each class file will contain only corresponding web page elements(Page Locators and Page Actions).
+Using these elements, testers can perform operations on the website under test.
+Advantage Of POM:-
+    1. Easy Maintenance
+    2. Code Resusibility
+    3. Readability and Reliability of Scripts
+For More Details click on this link:- https://www.browserstack.com/guide/page-object-model-in-selenium
+
+Ques. What is PageFactory and its advantages?
+Ans. Page Factory is a class provided by Selenium WebDriver to support Page Object Design patterns.
+In Page Factory, testers use @FindBy annotation.
+The initElements method is used to initialize web elements.
+@FindBy: An annotation used in Page Factory to locate and declare web elements using different locators.
+Below is an example of declaring an element using @FindBy
+ @FindBy(id = "login-username")
+ private WebElement username;
+ We can use @FindBy for below locatore
+ ClassName, CSS, Name, Xpath, TagName, LinkText, PartialLinkText.
